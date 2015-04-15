@@ -6,16 +6,15 @@ To Do:
 
 Add other languages.
 
-Add command with flag or passable argument for number of lines of code to be generated.
+Add command structure.
+
+Flags:
+--lang or -l (language) specifies the language for code to be generated for.
+codewriter --lang german
+--count -c specifies the number of lines to be generated.
+codewriter --count 100
+	
 
 More interesting readme.
 
 Conquer the world.
-
-Maybes:
-
-Have a cli version that allows users to call the generator and specify a language and a language.
-```
-codewriter erlang german
-```
-
