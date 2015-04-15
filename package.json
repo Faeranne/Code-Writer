@@ -1,0 +1,22 @@
+{
+  "name": "Code-Writer",
+  "version": "1.0.0",
+  "description": "Hey programmers, tired of writing your own code? Use this program. It writes code for you!",
+  "main": "javascript.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/mrmakeit/Code-Writer.git"
+  },
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/mrmakeit/Code-Writer/issues"
+  },
+  "homepage": "https://github.com/mrmakeit/Code-Writer",
+  "dependencies": {
+    "nomnom": "^1.8.1"
+  }
+}
