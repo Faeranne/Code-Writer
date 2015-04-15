@@ -8,10 +8,11 @@ Add other languages.
 
 Add command structure.
 
-Flags:
+Planned Flags:
+
 --lang or -l (language) specifies the language for code to be generated for.
 codewriter --lang german
---count -c specifies the number of lines to be generated.
+--count -c (count) specifies the number of lines to be generated.
 codewriter --count 100
 
 Add file containing language name and translation for code.
