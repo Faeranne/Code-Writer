@@ -6,6 +6,16 @@ To Do:
 
 Add other languages.
 
+Add command with flag or pass able argument for number of lines of code to be generated.
+
 More interesting readme.
 
 Conquer the world.
+
+Maybes:
+
+Have a cli version that allows users to call the generator and specify a language and a language.
+```
+codewriter erlang german
+```
+
