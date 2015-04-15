@@ -6,21 +6,9 @@ To Do:
 
 Add other languages.
 
-Add command structure.
-
 Planned Flags:
 
---lang or -l (language) specifies the language for code to be generated for.
-codewriter --lang german
---count -c (count) specifies the number of lines to be generated.
-codewriter --count 100
-
-Add file containing language name and translation for code.
-'''
-english:code
-german:code
-'''
-	
+uh? Nothing at the moment.
 
 More interesting readme.
 
