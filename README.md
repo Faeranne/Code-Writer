@@ -8,7 +8,7 @@ Add other languages.
 
 Add command structure.
 
-Flags:
+Planned Flags:
 
 --lang or -l (language) specifies the language for code to be generated for.
 codewriter --lang german
