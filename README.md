@@ -13,6 +13,12 @@ Flags:
 codewriter --lang german
 --count -c specifies the number of lines to be generated.
 codewriter --count 100
+
+Add file containing language name and translation for code.
+'''
+english:code
+german:code
+'''
 	
 
 More interesting readme.
