@@ -1,6 +1,6 @@
 Hey programmers, tired of writing your own code? Use this program. It writes code for you!
 
-Curren Version: 1.0
+Current Version: 1.0
 
 To Do:
 
