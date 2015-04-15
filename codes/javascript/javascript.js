@@ -10,7 +10,7 @@ var opts = require('nomnom')
 			abbr: 'l'
 	})
 	.option('count',{
-			abbr: 'n'
+			abbr: 'c'
 	})
 	.parse();
 if(opts.lang){
