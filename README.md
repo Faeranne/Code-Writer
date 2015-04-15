@@ -1,4 +1,4 @@
-Hey programmers tired of writing your own code use this program it writes code for you!
+Hey programmers, tired of writing your own code? Use this program. It writes code for you!
 
 Curren Version: 1.0
 
@@ -6,7 +6,7 @@ To Do:
 
 Add other languages.
 
-Add command with flag or pass able argument for number of lines of code to be generated.
+Add command with flag or passable argument for number of lines of code to be generated.
 
 More interesting readme.
 
