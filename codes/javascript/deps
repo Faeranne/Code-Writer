@@ -1,2 +1,9 @@
 #!/bin/bash
-
+ROOTDIR=$( cd "$( dirname "${BASH_SOURCE[0]}" )" && pwd )
+if test npm; then
+	cd $ROOTDIR
+	npm install
+	touch deps.done
+else
+	echo 'need to install npm first'
+fi
