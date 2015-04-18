@@ -1,2 +1,2 @@
 ROOTDIR=$( cd "$( dirname "${BASH_SOURCE[0]}" )" && pwd )
-ruby $ROOTDIR/pascal "$@"
+$ROOTDIR/pascal "$@"
