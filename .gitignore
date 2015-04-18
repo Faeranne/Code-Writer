@@ -1,3 +1,4 @@
 .*.swp
+bin/
 node_modules
 deps.done

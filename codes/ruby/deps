@@ -1,0 +1,11 @@
+#!/bin/bash
+ROOTDIR=$( cd "$( dirname "${BASH_SOURCE[0]}" )" && pwd )
+if [ ! -e $ROOTDIR/deps.done ]; then
+	mkdir $ROOTDIR/bin
+	cd $ROOTDIR/bin
+	wget https://rvm.io/binaries/ubuntu/14.10/x86_64/ruby-1.9.3-p551.tar.bz2
+	tar -jxf ruby-1.9.3-p551.tar.bz2
+	mv ruby-1.9.3-p551/* .
+	rm ruby-1.9.3* -rf
+	touch $ROOTDIR/deps.done
+fi
