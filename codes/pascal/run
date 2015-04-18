@@ -1,0 +1,6 @@
+if test bash; then
+ROOTDIR=$( cd "$( dirname "${BASH_SOURCE[0]}" )" && pwd )
+$ROOTDIR/bash.sh "$@"
+else
+echo 'can not find bash';
+fi
