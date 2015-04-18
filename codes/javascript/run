@@ -1,5 +1,2 @@
 ROOTDIR=$( cd "$( dirname "${BASH_SOURCE[0]}" )" && pwd )
-if [ ! -a $ROOTDIR/deps.done ]; then
-	$ROOTDIR/deps
-fi
-$ROOTDIR/javascript.js "$@"
+$ROOTDIR/bin/bin/node $ROOTDIR/javascript.js "$@"

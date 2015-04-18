@@ -1,9 +1,13 @@
 #!/bin/bash
 ROOTDIR=$( cd "$( dirname "${BASH_SOURCE[0]}" )" && pwd )
-if test npm; then
-	cd $ROOTDIR
-	npm install
-	touch deps.done
-else
-	echo 'need to install npm first'
+if [ ! -e $ROOTDIR/deps.done ]; then
+	mkdir $ROOTDIR/bin
+	cd $ROOTDIR/bin
+	wget http://nodejs.org/dist/v0.10.38/node-v0.10.38-linux-x64.tar.gz
+	tar -zxf node-v0.10.38-linux-x64.tar.gz
+	mv node-v0.10.38-linux-x64/* .
+	rm node-v0.10.38-linux-x64* -rf
+	cd ../
+	./bin/bin/npm install
+	touch $ROOTDIR/deps.done
 fi
